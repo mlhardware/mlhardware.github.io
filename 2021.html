@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>IWMLH Workshop</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="./static/skeleton.css" rel="stylesheet" type="text/css" />
+<link href="./static/mlh.css" rel="stylesheet" type="text/css" />
+<link href="./static/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<p> </p>
+<div class="container">
+<p><img class="hall" src="images/isc.png"></p>
+<h1 id="nd-international-workshop-on-machine-learning-hardware-iwmlh-co-located-with-isc-2021">2nd International Workshop on Machine Learning Hardware (IWMLH), Co-located with ISC 2021</h1>
+<p>The 2nd International Workshop on Machine Learning Hardware is co-located
+digitally with <a href="https://www.isc-hpc.com/">ISC 2021</a>. Pre-recorded presentations
+are made available here. A live Q/A session will happen on July 2nd 3pm UTC.
+Please scroll below for an overview of the workshop’s scope. (<a href="2020.html">Link to first
+edition</a>).</p>
+<p><strong>Presentations</strong>: <a href="https://youtube.com/playlist?list=PLuCCH1wFmgiYtv43dBUDX5KpcxHKtDJew">Click here for Full Playlist</a></p>
+<ul>
+<li>Prasanna Balaprakash: <a href="https://youtu.be/7GHSw15nZ9U">Accelerating Deep Learning for Science with SambaNova</a>
+(<a href="2021/prasanna-balaprakash-anl.pdf">pdf</a>)</li>
+<li>Rob Schreiber: <a href="https://youtu.be/e-_0wVx_GDE">Wafer-Scale Hardware for ML and Beyond</a>
+(<a href="2021/rob-schreiber-cerebras.pdf">pdf</a>)</li>
+<li>Tony Hey: <a href="https://youtu.be/eBhGmPj20XA">Machine Learning Benchmarks for Scientific Applications</a>
+(<a href="2021/tony-hey.pdf">pdf</a>)</li>
+<li>Michaela Blott: <a href="https://youtu.be/LUPWZ-LC0XE">Specialization in Hardware Architectures for Deep Learning</a>
+(<a href="2021/michaela-blott-xilinx.pdf">pdf</a>)</li>
+<li>Tianjian Lu: <a href="https://youtu.be/MBmbv2EAUvU">Case studies on accelerating scientific computing applications with TPUs</a>
+(<a href="2021/tianjian-lu-google.pdf">pdf</a>)</li>
+<li>Haohuan Fu: <a href="https://youtu.be/q0_WVCkmfGo">Highly Scalable Machine Learning Methods on Sunway TaihuLight</a>
+(<a href="2021/haohuan-fu-tsinghua.pdf">pdf</a>)</li>
+<li>Takano Ryousei: <a href="https://youtu.be/17DdrqAHKLc">ABCI 2.0: opportunities and challenges of an open research platform for AI/ML</a>
+(<a href="2021/takano-ryousei.pdf">pdf</a>)</li>
+</ul>
+<div class="row">
+<div class="nine columns">
+<p><em>Live Q/A Session:</em> <strong>July 2 3pm-4:30pm UTC.</strong></p><p>A Live Q/A Session will be conducted for the ISC2021 audience to ask questions
+on the speaker’s presentations. The ISC2021 audience is encouraged to log
+on to the workshop’s slack channel and post their questions there ahead of
+the session. Questions will be curated and fed to participants during the
+live Q/A session.</p>
+</div>
+<div class="three columns">
+<div id="CommunityInviter">
+
+</div>
+</div>
+</div>
+<h2 id="talks">talks</h2>
+<p> </p>
+<div class="speakerblock">
+<div class="row">
+<div class="three columns">
+<p><a href="https://pbalapra.github.io"><img class="speaker70" src="2021/pb.png"></a></p>
+</div>
+<div class="nine columns">
+<p><strong>Accelerating Deep Learning for Science with SambaNova</strong></p><p><strong>Prasanna Balaprakash</strong>, Computer Scientist, <a href="https://anl.gov">Argonne National Laboratory</a>.</p>
+</div>
+</div>
+<p>In a number of deep neural networks designed for scientific applications,
+we are faced with prohibitively large training time, memory capacity
+limitations, and bandwidth bottlenecks due to data size, model complexity,
+and uncertainty estimation. Recently, we have been exploring the use of
+the SambaNova AI accelerator to circumvent these limitations. In this talk,
+we will first give a high level overview of the scientific deep learning
+applications, their specific modalities, complexities, and unique computational
+needs. Next, we will present some preliminary results on porting and running
+the applications on SambaNova. Finally, we will discuss our future plans of
+using specialized AI accelerators for scientific deep learning applications.</p>
+<div class="row">
+<div class="three columns">
+<p><a href="https://scholar.google.com/citations?user=APiItS4AAAAJ"><img class="speaker70" src="2021/rs.jpg"></a></p>
+</div>
+<div class="nine columns">
+<p><strong>Wafer-Scale Hardware for ML and Beyond</strong></p><p><strong>Rob Schreiber</strong>, Distinguished Engineer, <a href="https://cerebras.net/">Cerebras</a></p>
+</div>
+</div>
+<p>Dennard scaling is over, and Moore’s Law is coming to an end. And with
+the rise of deep learning, and a host of beyond-exascale challenges in HPC,
+we need more performance.</p>
+<p>Demand engenders supply, and ways to prolong the growth in supercomputing
+performance are at hand or on the horizon. Architectural specialization
+has returned, after a loss of system diversity in the Moore’s law era;
+it provides a significant boost for computational science. And at the
+hardware level, the development of a viable wafer-scale compute platform has
+important ramifications. Other long-term possibilities, notably quantum
+computing, may eventually play a role.</p>
+<p>Wafer-scale integration was tried, and failed, at a well-funded 1990s startup.
+It has now been brought to customers, successfully, by Cerebras Systems.
+Why wafer-scale? Real achieved performance in supercomputers (as opposed to
+the peak speed) is limited by the bandwidth and latency barriers — memory
+and communication walls — that impose delay when off-processor-chip data is
+needed, and it is needed all the time. By changing the scale of the chip by
+two orders of magnitude, we can pack a small, powerful, mini-supercomputer
+on one piece of silicon, and eliminate much of the off-chip traffic for
+applications that can fit in the available memory. The elimination of
+most off-chip communication also cuts the power per unit performance, a
+key parameter when total system power is capped, as it usually is. I will
+provide some detail concerning the technical problems that had to be solved
+to make wafer-scale computing viable. Cerebras wafer-scale systems are
+in use at several labs today, and I will discuss the impact that they are
+having for traditional models, neural networks in science, and hybrids of
+AI and mathematical physics.</p>
+<div class="row">
+<div class="three columns">
+<p><a href="https://www.scd.stfc.ac.uk/Pages/Tony-Hey.aspx"><img class="speaker70" src="2021/tony.jpg"></a></p>
+</div>
+<div class="nine columns">
+<p><strong>Machine Learning Benchmarks for Scientific Applications</strong></p><p><strong>Tony Hey</strong>, Chief Data Scientist, <a href="https://stfc.ukri.org/">Science and Technology Facilities Council</a>.</p>
+</div>
+</div>
+<p>Benchmarking is a well-known topic in computer science and is primarily used
+for comparing the performance of both system software and hardware. With
+the rise in the use of AI technologies such as Deep Learning, it has become
+important to benchmark AI algorithms and AI-specialized hardware. This
+talk will describe our SciML-Bench project at the Lab which is focused
+on applications of Machine Learning applied to applications in a range of
+scientific domains. It is an open source and open data initiative covering
+scientific problems from materials science, earth sciences, the life sciences,
+particle physics, and astronomy. The benchmarks consist of a reference
+implementation, implemented in Python and using one or more of the common
+ML frameworks such as TensorFlow, PyTorch, or SciKit-Learn, together with
+a curated dataset that can be down-loaded. The talk will contain details of
+our latest results and a sketch of our plans for future development of the
+SciML benchmark suite.</p>
+<div class="row">
+<div class="three columns">
+<p><a href="https://scholar.google.com/citations?user=Ny8sOl8AAAAJ&amp;hl"><img class="speaker70" src="2021/michaela.jpg"></a></p>
+</div>
+<div class="nine columns">
+<p><strong>Specialization in Hardware Architectures for Deep Learning</strong></p><p><strong>Michaela Blott</strong>, Distinguished Engineer, <a href="https://www.xilinx.com">Xilinx</a>.</p>
+</div>
+</div>
+<p>Neural Networks are playing a key role in an ever-increasing range of
+applications, including machine vision, speech recognition and recommender
+systems, however their computational complexity and memory demands are
+challenging which limits their deployment. To address these challenges,
+a broad spectrum of increasingly customized and heterogeneous hardware
+architectures has emerged. During this talk, we will discuss various forms of
+specializations that have been leveraged by the industry with their impact
+on potential applications, flexibility, performance and efficiency. We
+apply these specializations on the example of a network intrusion detection
+system and quantify their impact on figures of merit such as throughput
+and latency. Finally, we will discuss how the specialization in hardware
+architectures can be automated through end-to-end tool flows.</p>
+<div class="row">
+<div class="three columns">
+<p><a href="https://research.google/people/105395/"><img class="speaker70" src="2021/tj.jpg"></a></p>
+</div>
+<div class="nine columns">
+<p><strong>Case studies on accelerating scientific computing applications with TPUs</strong></p><p><strong>Tianjian Lu</strong>, Software Engineer, <a href="https://research.google.com">Google Research</a>.</p>
+</div>
+</div>
+<p>Tensor Processing Units (TPU) is an application-specific integrated circuit
+(ASIC) to run cutting-edge machine learning models on Google Cloud. This work
+presents case studies on accelerating scientific computing applications on
+TPUs. The case studies include the distributed discrete Fourier transform,
+fast Fourier transform (FFT), nonuniform FFT (NUFFT), and spherical harmonics
+transform on TPUs, all targeting large-scale problems. We also apply the
+distributed Fourier transform on TPUs in medical imaging.</p>
+<div class="row">
+<div class="three columns">
+<p><a href="http://www.dess.tsinghua.edu.cn/en/info/1090/1292.htm"><img class="speaker70" src="2021/hao.jpg"></a></p>
+</div>
+<div class="nine columns">
+<p><strong>Highly Scalable Machine Learning Methods on Sunway TaihuLight</strong></p><p><strong>Haohuan Fu</strong>, Professor, <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>.</p>
+</div>
+</div>
+<p>The Sunway TaihuLight supercomputer is the world’s first system with a
+peak performance greater than 100 PFlops, and a parallel scale of over 10
+million cores. Different from other existing heterogeneous supercomputers,
+the system adopts its unique design strategies in both the architecture of
+its 260-core Shenwei CPU and its way of integrating 40,960 such CPUs as 40
+powerful cabinets. Based on such a system design, we have developed a series of
+highly-scalalbe machine learning methods, such as deep convolutional networks,
+k-means, etc., which help to bridge to computing power to a number of data
+analysis problems in the earth science domain.</p>
+<div class="row">
+<div class="three columns">
+<p><a href="https://www.linkedin.com/in/ryousei/"><img class="speaker70" src="2021/takano.jpg"></a></p>
+</div>
+<div class="nine columns">
+<p><strong>ABCI 2.0: opportunities and challenges of an open research platform for AI/ML
+workloads</strong></p><p><strong>Takano Ryousei</strong>, Senior Researcher, <a href="https://www.aist.go.jp/index_en.html">National Institute of Advanced Industrial Science and Technology</a>.</p>
+</div>
+</div>
+<p>ABCI is a large-scale open AI computing infrastructure for advancing
+AI research and deployment, operated by National Institute of Advanced
+Industrial Science and Technology (AIST) since 2018. It is now upgraded to
+be equipped with the 960 NVIDIA A100 GPUs. The theoretical peak performance
+reaches 226.0 petaflops for single precision and 851.5 petaflops for half
+precision, which is 1.5 to 3 times faster than the existing ABCI system. We
+introduce the system overview including AI/ML benchmark results, and ongoing
+research activities related to large-scale deep learning training techniques
+and massively parallel scientific workloads.</p>
+</div>
+<p> </p>
+<h2 id="workshop-scope">Workshop Scope</h2>
+<p>Recent years have seen a surge of interest and R&amp;D efforts in AI chips
+worldwide. Those accelerators are typically designed for industrial
+applications, as opposed to scientific workloads. The use of machine learning
+(ML) accelerates in the HPC field itself, and there is concern that the
+scientific community should influence this ecosystem.</p>
+<p>Indeed, scientific computing has an uncommon set of requirements regarding
+usage and administration, and how those chips and their software offerings
+answer those demands will shape the future of their integration within the
+global scientific computing infrastructure.</p>
+<p>The previous iteration of this workshop focused on studying several points in
+the design space for those chips, through the participation of select AI
+accelerator companies. Several of such companies have since then started
+collaborating with organizations that look to expand HPC platforms. In this
+iteration of the workshop, we will focus on the following aspects:</p>
+<ul>
+<li><strong>Chip characterization and integration with HPC systems</strong>
+Obtaining a characterization of various accelerators in terms of expected
+power use operation throughput, and memory capacity/bandwidth is the first
+step torwards understanding how they can be leveraged.
+Secondly, understanding what system interfaces will be available will help
+cast light on how those chips should be integrated with HPC systems at large.
+This also helps understanding which usage and administration model to expect.
+Of particular interest are low-level features in terms of host connection,
+interconnect, concurrency, partitioning, debugging, and power management.
+Together, those aspects can help us predict how ML accelerators can be
+integrated within the HPC ecosystem as a whole.</li>
+<li><strong>Software APIs and Compiler Toolchains</strong>
+Most AI chips are designed to leverage regularity in
+the dataflow inherent in ML models. This design supposes the use of standard
+model representation and/or custom dataflow graph formats, but does
+not preclude the use of more direct methods for programming the hardware.
+The case of “direct” software APIs and their programming models
+is of high interest to the scientific community. We need to understand which APIs
+exist for each platform, at which level of granularity, as well as the
+associated development and maintenance costs.
+The case where models are to be directly mapped to accelerators is also
+crucial. This is done with the aid of compilers that solve a complex task –
+one which may involve solving graph lowering, placement and routing problems.
+The usage model of
+those compiler toolchains in a scientific computing context is a subject
+worthy of discussion. Indeed, the features of the compilers and constraints
+around their use will play a large role in the scientific process itself.</li>
+<li><strong>Applications</strong>
+The scientific community is interested in understanding how those accelerators
+can benefit their applications. Industrial participants are encouraged to
+showcase existing work on scientific workloads, both in terms of implementation
+details and computational performance. Of interest are ML-first scientific
+workloads, but also scientific apps augmented through ML capabilities, as well
+as non-ML applications accelerated directly. Both high-level results and
+API usage/implementation details are of interest.</li>
+</ul>
+<h3 id="organizers">Organizers</h3>
+<p>Pete Beckman, Argonne National Laboratory - <code>beckman@mcs.anl.gov</code>
+Swann Perarnau, Argonne National Laboratory - <code>swann@anl.gov</code>
+Rosa M.Badia, Barcelona Supercomputing Center
+Kentaro Sano, RIKEN
+Valentin Reis, Groq, Inc - <code>vreis@groq.com</code></p>
+</div></body>
+</html>

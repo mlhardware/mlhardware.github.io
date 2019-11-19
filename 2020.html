@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>IWMLH Workshop</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="./static/skeleton.css" rel="stylesheet" type="text/css" />
+<link href="./static/mlh.css" rel="stylesheet" type="text/css" />
+<link href="./static/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<p> </p>
+<div class="container">
+<p><img class="hall" src="images/hall.jpg"></p>
+<h1 id="international-workshop-on-machine-learning-hardware-iwmlh-co-located-with-isc2020">International Workshop on Machine Learning Hardware (IWMLH), Co-located with ISC2020</h1>
+<div class="row">
+<div class="nine columns">
+<p><strong>Presentations</strong>: <a href="https://www.youtube.com/playlist?list=PLuCCH1wFmgia4QQadi0CEe3n9XUmsePza">click here for full playlist</a></p><p>Keynote, Albert Cohen: <a href="https://youtu.be/7TimDQC_SBQ">Compiler Construction for Hardware Acceleration: Challenges and Opportunities</a> <a href="2020/mlir-albert-cohen.pdf">PDF Slides</a></p><p>Preferred Networks: <a href="https://youtu.be/y83IZyQru74">MN-Core: Massively SIMD Deep Learning Accelerator</a> <a href="2020/pfn.pdf">(PDF slides)</a><br />
+GraphCore: <a href="https://youtu.be/blUJEYwYJKk">Scalable Machine Intelligence Systems</a> <a href="2020/graphcore.pdf">(PDF slides)</a><br />
+Groq: <a href="https://youtu.be/uJbTEXFAsLs">Groq’s Tensor Streaming Processor</a> <a href="2020/groq.pdf">(PDF slides)</a><br />
+SambaNova: <a href="https://youtu.be/Jhtp1KWTW-c">Accelerating Software 2.0</a> <a href="2020/sambanova.pdf">(PDF slides)</a><br />
+Cerebras: <a href="https://youtu.be/bSWss7MwJTc">Wafer-scale AI for science and HPC</a> <a href="2020/cerebras.pdf">(PDF slides)</a></p><p>A 90 minute live Q/A Session was conducted on June 25th for the ISC2020 audience to ask questions on both the keynote and participant’s presentations.</p>
+</div>
+<div class="three columns">
+<div id="CommunityInviter">
+
+</div>
+</div>
+</div>
+<script>
+  window.CommunityInviterAsyncInit = function () {
+    CommunityInviter.init({
+      app_url:'ml-hardware-workshop',
+      team_id:'mlhardware'
+   })
+  };
+
+  (function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "https://communityinviter.com/js/communityinviter.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'Community_Inviter'));
+</script>
+<p> </p>
+<h2 id="invited-speaker">Invited speaker</h2>
+<div class="speakerblock">
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 49%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><a href="https://research.google/people/106208/"><img class="speaker" src="images/cohen.jpg"></a></td>
+<td style="text-align: center;"><strong>Albert Cohen</strong>, Research Scientist, Google Research.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Compiler Construction for Hardware Acceleration: Challenges and Opportunities</strong></p>
+<blockquote>
+<p>This is a new golden age for optimizing compilers. We live in a heterogeneous
+world of domain-specific languages and accelerators, freeing programming
+language and computer architects from the chains of general-purpose,
+one-size-fits all designs.<br />
+<cite> [John Hennessy and Dave Patterson’s Turing award lecture, shamelessly adapted.] </cite></p>
+</blockquote>
+<p>The emphasis moves from abstraction penalty removal to zero-cost abstraction by
+design, from optimization targeting a Von Neumann architecture to the
+orchestration of a distributed hierarchy of computational and memory resources,
+from performance through native libraries to just-in-time code generation
+through active libraries, from expert-written heuristics to machine learning
+compilation and program synthesis. Beyond performance, compiler construction
+for heterogeneity also raises challenges in debuggability across abstractions
+and languages, formal methods and security.</p>
+<p>Building on applications from high performance computing and machine learning,
+we will illustrate these challenges on the design of MLIR, an open source
+infrastructure supported by the LLVM foundation, to accelerate innovation in
+machine learning (ML) and high-performance computing (HPC). MLIR is built for
+extension and evolution, enabling research and engineering on heterogeneous
+compilation; it is also a research artifact raising its own design, semantics
+and algorithmic challenges.</p>
+</div>
+<p> </p>
+<h2 id="participating-companies">Participating companies</h2>
+<div class="speakerblock">
+<table>
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 65%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><a href="https://groq.com"><img class="company" src="images/groq.jpg"></a></td>
+<td style="text-align: left;"><strong>Adrian Macias</strong>, Machine Learning Systems Specialist.</td>
+</tr>
+<tr class="even">
+<td><a href="https://sambanova.ai"><img class="company" src="images/sambanova.png"></a></td>
+<td style="text-align: left;"><strong>Kunle Olukotun</strong>, Chief Technologist and Co-Founder.</td>
+</tr>
+<tr class="odd">
+<td><a href="https://www.graphcore.ai"><img class="company" src="images/graphcore.png"></a></td>
+<td style="text-align: left;"><strong>Matt Fyles</strong>, SVP, Software.</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.cerebras.net"><img class="company" src="images/cerebras.svg"></a></td>
+<td style="text-align: left;"><strong>Andy Hock</strong>, Senior Director and Head of Product.</td>
+</tr>
+<tr class="odd">
+<td><a href="https://preferred.jp"><img class="company" src="images/pfn.png"></a></td>
+<td style="text-align: left;"><strong>Yusuke Doi</strong>, VP of Computing Infrastructure.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<h2 id="workshop-scope">Workshop Scope</h2>
+<p>Recent years have seen a surge of investment in AI chip companies worldwide.
+Most companies design accelerators for industrial applications, as opposed to
+scientific workloads. As the use of machine learning (ML) accelerates in the
+HPC field itself, there is concern that the scientific community should
+influence the design of this new specialized hardware. Indeed, scientific
+computing has an uncommon set of requirements regarding platform usage and
+administration, and how those chips answer those demands will shape the future
+of their integration within the global scientific computing infrastructure.</p>
+<p>The workshop will feature the participation of select AI accelerator companies,
+with discussions centered on the following aspects:</p>
+<ul>
+<li><strong>Programming models</strong>. Most AI chips are designed to leverage regularity in
+the dataflow inherent in ML models. This design supposes the use of standard
+model representation formats and/or custom dataflow graph formats. Those
+programming models are of high interest to the scientific community. We need
+to understand which types of ML/scientific applications will be supported by
+each platform, as well as the associated development and maintenance costs.</li>
+<li><strong>Compiler toolchain</strong>. ML accelerators often rely on complex compilation
+technology to map dataflow descriptions to hardware. These compilers can be
+radically different from existing compiler stacks in that they may solve
+complex placement and routing problems. The usage model of those compiler
+toolchains in a scientific computing context is a subject worthy of
+discussion. Indeed, the features of the compilers and constraints around
+their use will play a large role in the scientific process itself.</li>
+<li><strong>System interfaces</strong>. Understanding what low-level system interfaces will be
+available can help cast light on which usage and administration model to
+expect. In particular, we’d like participants to discuss expected
+capabilities in terms of concurrency, partitioning, debugging, power
+management, and performance characterization.</li>
+<li><strong>Architecture</strong>. Successful integration of AI chips in the existing
+scientific computing infrastructure will require a proper understanding of
+chips in terms of operator optimization and customization, bandwidth,
+latency, memory management, power demands, and network capabilities.</li>
+</ul>
+<h3 id="organizers">Organizers</h3>
+<p>Pete Beckman, Argonne National Laboratory - <code>beckman@mcs.anl.gov</code><br />
+Swann Perarnau, Argonne National Laboratory - <code>swann@anl.gov</code><br />
+Rosa M.Badia, Barcelona Supercomputing Center<br />
+Kentaro Sano, RIKEN<br />
+Valentin Reis, Argonne National Laboratory - <code>vreis@anl.gov</code></p>
+</div></body>
+</html>

@@ -1,0 +1,82 @@
+div#header {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+div#header a {
+  text-decoration: none;
+}
+
+div#header a:hover {
+  text-decoration: underline;
+}
+
+.hall {
+  width: 50%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  box-sizing: border-box; }
+
+.wow {
+  font-size: 150px;
+}
+
+h1 {
+  font-size: 1.2em;
+  margin: 0.67em 0;
+}
+
+
+h2 {
+  font-size: 1em;
+  margin: 0.67em 0;
+}
+
+
+h3 {
+  font-size: 0.9em;
+  margin: 0.67em 0;
+}
+
+.slack {
+  width: 30%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  box-sizing: border-box; }
+
+.companies {
+  width: 50%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  box-sizing: border-box; }
+
+.speakerblock {
+  width: 80%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  box-sizing: border-box;
+  }
+
+.speaker {
+  width: 50%;
+ }
+
+.speaker70 {
+  width: 70%;
+ }
+
+.company {
+  width: 50%;
+}
+
+th,td {
+  border-bottom: 0px solid #ddd;
+}
